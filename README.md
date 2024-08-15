@@ -20,8 +20,10 @@ There are two main purposes for this repository:
 
 ## Table of Contents
 
-1. [Learn the Basics](#learn-the-basics)
-1.1 [Basic Syntax](#basic-syntax)
+- [Learn the Basics](#learn-the-basics)
+    - [Basic Syntax](#basic-syntax)
+    - [Variables and Data Types](#variables-and-data-types)
+    - [Conditionals](#conditionals)
 
 ## Learn the Basics
 
@@ -52,3 +54,79 @@ Visit the following resources to learn more:
 - [Article] [Basic Data Types in Python](https://realpython.com/python-data-types/)
 - [Article] [Python for Beginners: Data Types](https://thenewstack.io/python-for-beginners-data-types/)
 - [Video] [Python Variables - Python Tutorial for Beginners with Examples | Mosh](https://www.youtube.com/watch?v=cQT33yu9pY8)
+
+#### Example
+
+```python
+# Declare a variable
+number_of_books = 10
+
+# Declare a variable with the type: str (string)
+book_title = "Harry Potter and the Philosopher's Stone"
+
+# Declare a variable with the type: int
+book_price = 20
+
+# Declare a variable with the type: float
+book_rating = 4.5
+
+# Declare a variable with the type: bool (boolean)
+is_best_seller = True
+
+# Declare a variable with the type: list
+main_characters = ["Harry", "Hermione", "Ron"]
+
+# Declare a variable with the type: tuple
+charecters_ages = (11, 12, 11)
+```
+
+### Conditionals
+
+#### Information
+
+Conditional Statements in Python perform different actions depending on whether a specific condition evaluates to true or false. Conditional Statements are handled by IF-ELIF-ELSE statements and MATCH-CASE statements in Python.
+
+Visit the following resources to learn more:
+
+- [Article] [Python Conditional Statements: IF…Else, ELIF & Switch Case](https://www.guru99.com/if-loop-python-conditional-structures.html)
+- [Article] [Conditional Statements in Python](https://realpython.com/python-conditional-statements/)
+- [Article] [How to use a match statement in Python](https://learnpython.com/blog/python-match-case-statement/)
+- [Article] [W3Schools - Python Conditions and If statements](https://www.w3schools.com/python/python_conditions.asp)
+
+#### Example
+
+```python
+# Declare a variable
+wizard = "Harry"
+house = "Gryffindor"
+
+# If, elif, else statement
+if wizard == "Harry":
+    print("You are Harry Potter!")
+elif wizard == "Ron":
+    print("You are Ron Weasley!")
+else:
+    print("You are not Harry Potter or in Gryffindor.")
+
+
+# Match-case statement
+match house:
+    case "Gryffindor":
+        print("You are in Gryffindor!")
+    case "Hufflepuff":
+        print("You are in Hufflepuff!")
+    case "Ravenclaw":
+        print("You are in Ravenclaw!")
+    case "Slytherin":
+        print("You are in Slytherin!")
+    case _:
+        print("You are not in any house.")
+```
+
+** Output **
+
+```
+You are Harry Potter!
+You are in Gryffindor!
+```
+
