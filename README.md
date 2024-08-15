@@ -24,6 +24,7 @@ There are two main purposes for this repository:
     - [Basic Syntax](#basic-syntax)
     - [Variables and Data Types](#variables-and-data-types)
     - [Conditionals](#conditionals)
+    - [Loops](#loops)
 
 ## Learn the Basics
 
@@ -123,10 +124,96 @@ match house:
         print("You are not in any house.")
 ```
 
-** Output **
+**Output:**
 
 ```
 You are Harry Potter!
 You are in Gryffindor!
+```
+
+### Loops
+
+#### Information
+
+Loops are used to execute a block of code repeatedly.
+
+Visit the following resources to learn more:
+
+- [Article] [Loops in Python](https://www.geeksforgeeks.org/loops-in-python/)
+
+#### Example
+
+```python
+# For loop incrementing by 1
+for i in range(5):
+    print(i)
+
+
+# For loop incrementing by 2
+for i in range(0, 5, 2):
+    print(i)
+
+
+# For loop decrementing by 1
+for i in range(5, 0, -1):
+    print(i)
+
+
+# While loop
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+
+
+# While loop with break statement
+while True:
+    var = input("Guess the number between 1 and 3: ")
+    if var == "3":
+        print("You guessed the correct number!")
+        break
+    else:
+        print("Try again!")
+```
+
+**Output:**
+
+```
+# For loop incrementing by 1
+
+0
+1
+2
+3
+4
+
+# For loop incrementing by 2
+
+0
+2
+4
+
+# For loop decrementing by 1
+
+5
+4
+3
+2
+1
+
+# While loop
+
+0
+1
+2
+3
+4
+
+# While loop with break statement
+
+Guess the number between 1 and 3: 1
+Try again!
+Guess the number between 1 and 3: 3
+You guessed the correct number!
 ```
 
