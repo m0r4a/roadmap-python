@@ -30,8 +30,6 @@ There are two main purposes for this repository:
 
 ### Basic Syntax
 
-[Go back to the Table of Contents](#table-of-contents)
-
 #### Information
 
 - [Article] [W3Schools - Python](https://www.w3schools.com/python/)
@@ -43,9 +41,9 @@ There are two main purposes for this repository:
 
 The best code example to show the basic syntax of Python would be to just copy the "Learn X in Y Minutes" so please, just go and check it out.
 
-### Variables and Data Types
-
 [Go back to the Table of Contents](#table-of-contents)
+
+### Variables and Data Types
 
 #### Information
 
@@ -85,9 +83,9 @@ main_characters = ["Harry", "Hermione", "Ron"]
 charecters_ages = (11, 12, 11)
 ```
 
-### Conditionals
-
 [Go back to the Table of Contents](#table-of-contents)
+
+### Conditionals
 
 #### Information
 
@@ -137,9 +135,9 @@ You are Harry Potter!
 You are in Gryffindor!
 ```
 
-### Loops
-
 [Go back to the Table of Contents](#table-of-contents)
+
+### Loops
 
 #### Information
 
@@ -225,3 +223,4 @@ Guess the number between 1 and 3: 3
 You guessed the correct number!
 ```
 
+[Go back to the Table of Contents](#table-of-contents)
