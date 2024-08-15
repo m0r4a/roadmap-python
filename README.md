@@ -30,6 +30,8 @@ There are two main purposes for this repository:
 
 ### Basic Syntax
 
+[Go back to the Table of Contents](#table-of-contents)
+
 #### Information
 
 - [Article] [W3Schools - Python](https://www.w3schools.com/python/)
@@ -42,6 +44,8 @@ There are two main purposes for this repository:
 The best code example to show the basic syntax of Python would be to just copy the "Learn X in Y Minutes" so please, just go and check it out.
 
 ### Variables and Data Types
+
+[Go back to the Table of Contents](#table-of-contents)
 
 #### Information
 
@@ -82,6 +86,8 @@ charecters_ages = (11, 12, 11)
 ```
 
 ### Conditionals
+
+[Go back to the Table of Contents](#table-of-contents)
 
 #### Information
 
@@ -132,6 +138,8 @@ You are in Gryffindor!
 ```
 
 ### Loops
+
+[Go back to the Table of Contents](#table-of-contents)
 
 #### Information
 
